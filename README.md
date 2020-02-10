@@ -8,13 +8,13 @@ In this unit, coders will work in groups to build a project using HTML, CSS, REA
 ### Day 1: Project Setup and Introduction to Visual Studio Ocde
 Goal: Set up your project,  view the live running app, and build a simple component.
 
-- [ ] Use your [Outline and Planning Doc](https://docs.google.com/document/d/1oiyYdTcO2RxbE-2yq5KmeZpthExzHCNrgrVGtT47yOg/edit) to plan your project.
-- [ ] Go to the repository at https://github.com/itscodenation/trivia
-- [ ] Fork the repository to your github account and clone to a new workspace
-- [ ] Add, commit, and push your changes
-- [ ] To set up your app, in your terminal type `npm install`
-- [ ] To run your app, in your terminal type `npm start` this runs the app in the development mode. Then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- [ ] Use any remaining time to begin working on your project.
+- [x] Use your [Outline and Planning Doc](https://docs.google.com/document/d/1oiyYdTcO2RxbE-2yq5KmeZpthExzHCNrgrVGtT47yOg/edit) to plan your project.
+- [x] Go to the repository at https://github.com/itscodenation/trivia
+- [x] Fork the repository to your github account and clone to a new workspace
+- [x] Add, commit, and push your changes
+- [x] To set up your app, in your terminal type `npm install`
+- [x] To run your app, in your terminal type `npm start` this runs the app in the development mode. Then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Use any remaining time to begin working on your project.
 
 ====
 ### Day 2: Use classes to represent data models
