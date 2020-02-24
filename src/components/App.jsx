@@ -3,18 +3,26 @@ import '../css/App.css';
 import { Question }  from './Question.jsx';
 import firebase from 'clients/firebase.js';
 
+import {buildFirebase} from '.../clients/firebase.js'
+
+var database = buildFirebase();
+var databaseRef = database.ref('/questions');
+databaseRef.once("value").then(function(data) {
+  const questions = data.val();
+  // Do something with the questions
+});
+
 class App extends Component {
   constructor(props) {
     super(props); 
     var database = buildFirebase();
+
   var databaseRef = database.ref("/questions");
   databaseRef.once("value").then(function(data) {
     // Extract the data form the database
     const questions = data.val();
     // Set the state of the "data" variable to the questions data.
     this.state = ( data: questions  ) 
-  }
-      
   }
 
   
